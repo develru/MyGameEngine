@@ -2,6 +2,7 @@
 
 int main(int argc, char **argv)
 {
-    app = QApplication(argc, argv)
-    return 0;
+    QApplication app(argc, argv);
+
+    return app.exec();
 }
