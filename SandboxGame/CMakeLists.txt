@@ -6,6 +6,6 @@ set(CMAKE_INCLUDE_CURRENT_DIR ON)
 
 find_package(Qt5Widgets REQUIRED)
 
-add_executable(SandboxGame SandboxGame.cpp )
+add_executable(SandboxGame SandboxGame.cpp MyGlWindow.cpp)
 qt5_use_modules(SandboxGame Widgets)
 
