@@ -1,7 +1,9 @@
 #ifndef SANDBOX_GLWINDOW_H
 #define SANDBOX_GLWINDOW_H
 
-class MyGlWindow
+#include <QGLWidget>
+
+class MyGlWindow : public QGLWidget
 {
 };
 
