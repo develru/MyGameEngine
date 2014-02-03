@@ -5,6 +5,8 @@
 
 class MyGlWindow : public QGLWidget
 {
+protected:
+    void initializeGL();
 };
 
 #endif /* SANDBOX_GLWINDOW_H */
